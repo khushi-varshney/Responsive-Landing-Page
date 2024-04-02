@@ -1,0 +1,219 @@
+*{
+    margin: 0.1vw;
+    padding: 0.1vw;
+    /* overflow-x:auto; */
+}
+.container{
+    max-width:80vw ;
+    /* overflow-x: auto; */
+    background-color: antiquewhite;
+}
+nav{
+    background-color: burlywood;
+    outline:2px solid lawngreen;
+}    
+.h2{
+    font-size: 3rem;
+    text-align: center;
+    color:brown;   
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+}
+nav ul li{
+    margin:0.8vw;
+    padding: 0.2vw;
+    border:2px solid white;
+    text-align: center;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    font-weight:700;
+    font-size:1.8vw;
+    padding-left: 1vw;
+}
+nav a:hover{
+    padding:2px;
+    border:2px solid black;
+    color: white;
+    font-size:2vw;
+    font-weight: 800;
+}
+.topleft{
+    margin:30px;
+    width: 70%;
+}
+topright{
+    width:50%;
+    height:50vh;
+}
+.btn{
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20%;
+    text-decoration: wavy;
+    background-color: peachpuff;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin:0.2rem;
+    color:crimson;
+}
+.btn:hover{
+    cursor:pointer;
+    font-size: 1.1rem;
+    font-weight: 650;
+    background-color: papayawhip;
+    color:saddlebrown;
+}
+.sec2{
+    padding: 10px;
+    margin:10px;
+}
+
+h1{
+    padding:10px;
+    margin: 10px;
+    font-size: 40px;
+}
+.p0{
+    font-family: "Space Mono", monospace;
+  font-weight: 900;
+  font-style: normal;
+  color:rgb(84, 156, 55)
+}
+.p1{
+    font-family: "Space Mono", monospace;
+    font-weight: 800;
+    font-style: normal;
+    padding:4px;
+    color:rgb(218, 43, 72);
+}
+.h4{
+    text-decoration: double;
+    text-align: center;
+    text-shadow: 1px 1px 2px blue;
+    color:rgb(44, 124, 44);
+}
+.P2{
+    color:rgb(163, 49, 102);
+    font-size:20px;
+    font-weight: 500;
+}
+.prices{
+    display: flex;
+    justify-content: space-around;
+    gap:40px;
+}
+.pricing{
+    padding: 10px;
+    margin:10px;
+    border:2px solid brown;
+    list-style: none;
+    text-align: center;
+}
+.pricing li{
+    margin:4px;
+}
+.pricing li button{
+    border:2px solid black;
+    background-color: pink;
+    padding:6px;
+    border-radius:10%;
+}
+.sec3{
+    
+        overflow-x: hidden;
+        display: flex;      
+        justify-content: center;
+}
+.h2e{
+    padding:0px;
+    margin:0px;
+    font-size:1rem;
+    animation: h2ee 5s ease-in 1s infinite;
+}
+@keyframes h2ee {
+    from{
+        font-size: 2rem;
+        color:rgb(71, 51, 43);
+        transform: scale(0.4);
+    }
+    to{
+        font-size:2.5rem;
+        color:rgb(238, 13, 200);
+        transform:scale(0.8);
+    }
+    
+}
+.footer{
+    padding:10px;
+    font-size: 20px;
+    font-weight: 100px;
+    text-align:center;
+}
+.pop-up{
+    visibility: hidden;
+    height:0vh;
+    width: 0vw;
+    margin-top:0vw;
+    margin-left: 0vw;
+    background-color: antiquewhite;
+    border:0px solid black;
+    border-radius: 0%;
+}
+.pop-uph2{
+    color: sandybrown;
+    text-decoration: underline;
+    font-size:3rem;
+    margin:8px;
+    text-align: center;
+}
+.pop-upp{
+    font-size:1.1rem;
+    margin:8px;
+    text-align: center;
+}
+.pop-uph5{
+    color:brown;
+    font-size:1.6rem;
+    margin:26px;
+    text-align: right;
+}
+@media screen and (max-width:600px){
+    nav ul li a{
+        font-size: 19px;
+    }
+    .first{
+        width:0px;
+        height:0px;
+    }
+    .pop-upp{
+        font-size:0.7rem;
+        margin:8px;
+        text-align: center;
+    }
+    .sec3{
+        width:0px;
+        height:0px;
+    }
+    footer{
+        font-size:15px;
+    }
+}
+@media screen and (max-width:800px) and (min-width:600px){
+    .second{
+        width:0px;
+        height:0px;
+    }
+    .sec3{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnvWdbUrqUyPf_JfQWckCLeDv_xdyIXmDtLXnDjqGjtw&s");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        filter:opacity(1);
+    }
+    }
