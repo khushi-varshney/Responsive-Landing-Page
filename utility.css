@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .min-h-screen{
     min-height: 100vh;
     display: float;
@@ -6,10 +11,7 @@
     padding:20px;
     float:right;
 }
-.mx-auto{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .flex{
     display: flex;
     gap:15px;
